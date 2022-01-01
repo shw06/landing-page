@@ -1,0 +1,47 @@
+.flex-container {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma;
+}
+
+.main {
+    background-color: #1f2937; 
+    height: 500px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    color: #F9FAF8;
+    font-size: 24px;
+    flex-direction: row;
+}
+
+.link-text {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one {
+    height: 400px;
+    background-color: white;
+}
+
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    background-color: #E5E7EB ;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+footer {
+    background-color: white;
+    height: 300px;
+}
